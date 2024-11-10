@@ -1,10 +1,32 @@
 plugins {
+	`maven-publish`
 	kotlin("jvm") version "2.0.0"
 	id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
 group = "org.raming"
-version = "1.0-SNAPSHOT"
+version = "1.0.0"
+
+publishing {
+	repositories {
+		maven {
+			name = "GitHubPackages"
+			url = uri("https://maven.pkg.github.com/Raaaaming/RUtils")
+			credentials {
+				username = System.getenv("GITHUB_USERNAME")
+				password = System.getenv("GITHUB_TOKEN")
+			}
+		}
+	}
+	publications {
+		create<MavenPublication>("gpr") {
+			groupId = "com.raming"
+			artifactId = "RUtils"
+			version = "1.0.0"
+			from(components["java"])
+		}
+	}
+}
 
 repositories {
 	mavenCentral()
