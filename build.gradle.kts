@@ -29,10 +29,10 @@ publishing {
 	}
 }
 
-signing {
+/* signing {
 	useInMemoryPgpKeys(System.getenv("SIGNING_KEY"), System.getenv("SIGNING_PASSWORD"))
 	sign(publishing.publications["gpr"])
-}
+} */
 
 repositories {
 	mavenCentral()
