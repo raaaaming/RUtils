@@ -1,0 +1,7 @@
+name: RUtils
+version: '1.0-SNAPSHOT'
+main: org.raming.rUtils.RUtils
+api-version: '1.20'
+load: STARTUP
+authors: [ Raaaaming ]
+description: This is Raaaaming's Library Plugin
