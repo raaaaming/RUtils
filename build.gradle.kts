@@ -1,5 +1,6 @@
 plugins {
-	id("maven-publish")
+	`maven-publish`
+	signing
 	kotlin("jvm") version "2.0.0"
 	id("com.github.johnrengelman.shadow") version "8.1.1"
 }
@@ -26,6 +27,11 @@ publishing {
 			from(components["java"])
 		}
 	}
+}
+
+signing {
+	useInMemoryPgpKeys(System.getenv("SIGNING_KEY"), System.getenv("SIGNING_PASSWORD"))
+	sign(publishing.publications["gpr"])
 }
 
 repositories {
