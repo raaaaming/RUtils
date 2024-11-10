@@ -5,14 +5,14 @@ plugins {
 }
 
 group = "org.raming"
-version = "1.0.2"
+version = "1.0.3"
 
 publishing {
 	publications {
 		register("mavenJava", MavenPublication::class) {
 			groupId = "com.raming"
 			artifactId = "RUtils"
-			version = "1.0.2"
+			version = "1.0.3"
 			from(components["java"])
 		}
 	}
