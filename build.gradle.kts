@@ -1,5 +1,5 @@
 plugins {
-	`maven-publish`
+	id("maven-publish")
 	kotlin("jvm") version "2.0.0"
 	id("com.github.johnrengelman.shadow") version "8.1.1"
 }
