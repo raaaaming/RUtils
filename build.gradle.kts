@@ -13,8 +13,8 @@ publishing {
 			name = "GitHubPackages"
 			url = uri("https://maven.pkg.github.com/Raaaaming/RUtils")
 			credentials {
-				username = System.getenv("GITHUB_USERNAME")
-				password = System.getenv("GITHUB_TOKEN")
+				username = System.getenv("GITHUB_USERNAME") as String
+				password = System.getenv("GITHUB_TOKEN") as String
 			}
 		}
 	}
