@@ -9,7 +9,7 @@ version = "1.0.0"
 
 publishing {
 	publications {
-		create<MavenPublication>("") {
+		create<MavenPublication>("maven") {
 			groupId = "com.raming"
 			artifactId = "RUtils"
 			version = "1.0.0"
