@@ -4,6 +4,12 @@ plugins {
 	id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
+java {
+	toolchain {
+		languageVersion.set(JavaLanguageVersion.of(17))
+	}
+}
+
 group = "org.raming"
 version = "1.0.3"
 
