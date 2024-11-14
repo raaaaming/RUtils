@@ -13,7 +13,7 @@
 ## Database
 
 ### Table of contents
-- [**Integrated Database**](#Integrated Database)
+- [**Integrated Database**](#Integrated-Database)
 - [**'Database' Class**](#'Database' Class)
 
 ### Integrated Database
