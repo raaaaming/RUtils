@@ -14,7 +14,7 @@
 
 ### Table of contents
 - [**Integrated Database**](#Integrated-Database)
-- [**'Database' Class**](#'Database' Class)
+- [**'Database' Class**](#'Database'-Class)
 
 ### Integrated Database
 
@@ -30,7 +30,7 @@
 ## Json
 
 ### Table of contents
-- [**Json Data Processing**](#Json Data Processing)
+- [**Json Data Processing**](#Json-Data-Processing)
 
 ### Json Data Processing
 
@@ -40,7 +40,7 @@
 ## Command
 
 ### Table of contents
-- [**RCommand Functions**](#RCommand Functions)
+- [**RCommand Functions**](#RCommand-Functions)
 
 ### RCommand Functions
 
@@ -51,7 +51,7 @@
 ## Logger
 
 ### Table of contents
-- [**Log Management**](#Log Management)
+- [**Log Management**](#Log-Management)
 
 ### Log Management
 
