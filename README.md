@@ -14,14 +14,14 @@
 
 ### Table of contents
 - [**Integrated Database**](#Integrated-Database)
-- [**'Database' Class**](#'Database'-Class)
+- [**'Database' Class**](#Database-Class)
 
 ### Integrated Database
 
 - All plugins using the RUtils library store data in a single database.
 - Supports organic connections between data (not yet implemented).
 
-### 'Database' Class
+### Database Class
 
 - Prevents data type errors through the Database class (not yet implemented).
 - Simplifies database usage during code editing (not yet implemented).
