@@ -5,20 +5,56 @@
 
 ---
 ## Features
-- [**데이터베이스**](#데이터베이스)
+- [**Database**](#Database)
 - [**Json**](#Json)
-- [**커맨드**](#커맨드)
-- [**로그**](#로그)
+- [**Command**](#Command)
+- [**Logger**](#Logger)
 ---
-## 데이터베이스
+## Database
+
+### Table of contents
+- [**Integrated Database**](#Integrated Database)
+- [**'Database' Class**](#'Database' Class)
+
+### Integrated Database
+
+- All plugins using the RUtils library store data in a single database.
+- Supports organic connections between data (not yet implemented).
+
+### 'Database' Class
+
+- Prevents data type errors through the Database class (not yet implemented).
+- Simplifies database usage during code editing (not yet implemented).
 
 ---
 ## Json
 
----
-## 커맨드
+### Table of contents
+- [**Json Data Processing**](#Json Data Processing)
+
+### Json Data Processing
+
+- Supports management of both individual plugin Json files and shared Json files (not yet implemented).
 
 ---
-## 로그
+## Command
+
+### Table of contents
+- [**RCommand Functions**](#RCommand Functions)
+
+### RCommand Functions
+
+- Enables use of functions within classes as commands with the RCommand annotation.
+- Automates command registration using the RCommandHolder annotation (not yet implemented).
+
+---
+## Logger
+
+### Table of contents
+- [**Log Management**](#Log Management)
+
+### Log Management
+
+- Standardizes log formatting across all plugins using the RUtils library.
 
 ---
