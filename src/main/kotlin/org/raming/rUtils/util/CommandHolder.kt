@@ -8,8 +8,9 @@ import org.raming.rUtils.command.RCommand
 class CommandHolder {
 
 	@RCommand(name = "Info", description = "Send a player info")
-	fun playerInfo(sender: CommandSender, args: Array<String>) {
+	fun playerInfo(sender: CommandSender, args: Array<out String>?) {
 		if(!sender.isOp) return
+		if(args.isNullOrEmpty()) return
 		if(args.size > 1) return
 
 		val target: Player? = when(args.size) {

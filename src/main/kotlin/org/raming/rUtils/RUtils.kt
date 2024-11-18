@@ -18,8 +18,6 @@ class RUtils : JavaPlugin() {
 
 	override fun onEnable() {
 		// Plugin startup logic
-		sendLog("Loading This Plugin!")
-
 		DatabaseManager.connect()
 		CommandRegistry.registerCommands(this, CommandHolder())
 
@@ -28,8 +26,6 @@ class RUtils : JavaPlugin() {
 
 	override fun onDisable() {
 		// Plugin shutdown logic
-		sendLog("Unloading This Plugin!")
-
 		DatabaseManager.disconnect()
 
 		sendLog("Unloaded This Plugin!")

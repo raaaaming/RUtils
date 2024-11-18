@@ -11,14 +11,14 @@ java {
 }
 
 group = "org.raming"
-version = "1.0.3"
+version = "1.1.0"
 
 publishing {
 	publications {
 		register("mavenJava", MavenPublication::class) {
 			groupId = "com.raming"
 			artifactId = "RUtils"
-			version = "1.0.3"
+			version = "1.1.0"
 			from(components["java"])
 		}
 	}
